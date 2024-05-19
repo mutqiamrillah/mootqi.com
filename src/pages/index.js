@@ -3,8 +3,8 @@ import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-// import Footer from '@/components/Footer';
-// import Navbar from "@/components/Navbar";
+import Footer from '@/components/Footer';
+import Navbar from "@/components/Navbar";
 
 import Head from "next/head";
 
@@ -18,13 +18,13 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        {/* <Navbar /> */}
+        <Navbar />
         <Hero />
         {/* <About /> */}
         <Skills />
         <Projects />
         <Contact />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
